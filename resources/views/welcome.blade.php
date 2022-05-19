@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/owl.theme.default.css" />
     <!-- main -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style2.css" />
     <!-- video modal -->
     <link rel="stylesheet" href="./css/modal-video.min.css" />
     <!-- bootstrap -->
@@ -40,7 +41,322 @@
       integrity="sha256-K4PK62zpbl/XelQ0bLxyUztMw5nLdGyd2qGmPTGM1oY="
       crossorigin="anonymous"
     />
-    <title>DM Farm Service</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>MyEvents</title>
+    
+    <style type="text/css">
+      body{
+          background: #F4F7FD;
+          margin-top:20px;
+      }
+      
+      .card-margin {
+          margin-bottom: 1.875rem;
+      }
+      
+      .card {
+          border: 0;
+          box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+          -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+          -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+          -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+      }
+      .card {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          min-width: 0;
+          word-wrap: break-word;
+          background-color: #ffffff;
+          background-clip: border-box;
+          border: 1px solid #e6e4e9;
+          border-radius: 8px;
+      }
+      
+      .card .card-header.no-border {
+          border: 0;
+      }
+      .card .card-header {
+          background: none;
+          padding: 0 0.9375rem;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          min-height: 50px;
+      }
+      .card-header:first-child {
+          border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
+      }
+      
+      .widget-49 .widget-49-title-wrapper {
+        display: flex;
+        align-items: center;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-primary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #edf1fc;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-day {
+        color: #4e73e5;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-month {
+        color: #4e73e5;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-secondary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fcfcfd;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-secondary .widget-49-date-day {
+        color: #dde1e9;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-secondary .widget-49-date-month {
+        color: #dde1e9;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-success {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #e8faf8;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-success .widget-49-date-day {
+        color: #17d1bd;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-success .widget-49-date-month {
+        color: #17d1bd;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #ebf7ff;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-info .widget-49-date-day {
+        color: #36afff;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-info .widget-49-date-month {
+        color: #36afff;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-warning {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: floralwhite;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-warning .widget-49-date-day {
+        color: #FFC868;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-warning .widget-49-date-month {
+        color: #FFC868;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-danger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #feeeef;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-danger .widget-49-date-day {
+        color: #F95062;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-danger .widget-49-date-month {
+        color: #F95062;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-light {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fefeff;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-light .widget-49-date-day {
+        color: #f7f9fa;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-light .widget-49-date-month {
+        color: #f7f9fa;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-dark {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #ebedee;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-dark .widget-49-date-day {
+        color: #394856;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-dark .widget-49-date-month {
+        color: #394856;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-base {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f0fafb;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-day {
+        color: #68CBD7;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-month {
+        color: #68CBD7;
+        line-height: 1;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-meeting-info .widget-49-pro-title {
+        color: #3c4142;
+        font-size: 14px;
+      }
+      
+      .widget-49 .widget-49-title-wrapper .widget-49-meeting-info .widget-49-meeting-time {
+        color: #B1BAC5;
+        font-size: 13px;
+      }
+      
+      .widget-49 .widget-49-meeting-points {
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: .5rem;
+      }
+      
+      .widget-49 .widget-49-meeting-points .widget-49-meeting-item {
+        display: list-item;
+        color: #727686;
+      }
+      
+      .widget-49 .widget-49-meeting-points .widget-49-meeting-item span {
+        margin-left: .5rem;
+      }
+      
+      .widget-49 .widget-49-meeting-action {
+        text-align: right;
+      }
+      
+      .widget-49 .widget-49-meeting-action a {
+        text-transform: uppercase;
+      }
+    </style>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -60,13 +376,13 @@
                 <li>
                   <a href="tel:+251 581785939"
                     ><i class="fa fa-phone" style="padding-right: 5px"></i
-                    >++251 581785939</a
+                    >+251 984742593</a
                   >
                 </li>
                 <li>
                   <a href="mailto:debremarkosfsc@gmail.com"
                     ><i class="fa fa-envelope" style="padding-right: 5px"></i
-                    >debremarkosfsc@gmail.com</a
+                    >tedoteams@gmail.com</a
                   >
                 </li>
               </ul>
@@ -110,7 +426,7 @@
         data-offset-top="10"
       >
         <div class="container">
-          <a class="navbar-brand mr-auto" href="#"><span><img src="../app/img/logo3.png" style="height: 50px;" alt=""></span>ደብረ ማርቆስ እርሻ አገልግሎት ማዕከል</a>
+          <a class="navbar-brand mr-auto" href="#"><span><img src="../app/img/logo3.png" style="height: 50px;" alt=""></span>MyEvents</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -134,131 +450,29 @@
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#news"
-                  >News <span class="sr-only"></span
+                <a class="nav-link" href="#events"
+                  >Events<span class="sr-only"></span
                 ></a>
-                <div class="dropdown-wrapper">
-                  <div class="dropdown-inner">
-                    <div class="flex-wrapper">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="row f1">
-                            <div class="col-sm-6">
-                              <div class="tab-wrapper d-flex">
-                                <div class="left_icon_wrapper">
-                                  <i class="fa fa-users"></i>
-                                </div>
-                                <div class="right_text_wrapper">
-                                  <div class="heading4">
-                                    <a href="#" class="">DM Farm Service Center</a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="tab-wrapper d-flex">
-                                <div class="left_icon_wrapper">
-                                  <i class="fa fa-users"></i>
-                                </div>
-                                <div class="right_text_wrapper">
-                                  <div class="heading4">
-                                    <a href="#" class="">Debre Markos</a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="tab-wrapper d-flex">
-                                <div class="left_icon_wrapper">
-                                  <i class="fa fa-users"></i>
-                                </div>
-                                <div class="right_text_wrapper">
-                                  <div class="heading4">
-                                    <a href="#" class="">National News</a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="tab-wrapper d-flex">
-                                <div class="left_icon_wrapper">
-                                  <i class="fa fa-users"></i>
-                                </div>
-                                <div class="right_text_wrapper">
-                                  <div class="heading4">
-                                    <a href="#" class="">World News</a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="tab-wrapper d-flex">
-                                <div class="left_icon_wrapper">
-                                  <i class="fa fa-users"></i>
-                                </div>
-                                <div class="right_text_wrapper">
-                                  <div class="heading4">
-                                    <a href="#" class="">Carrers</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="e-book-wrapper">
-                            <div class="flex_wrapper">
-                              <div class="book_wraper">
-                                <figure>
-                                  <img
-                                    class="lazyloaded"
-                                    data-src="https://appinventiv.com/wp-content/themes/twentynineteen-child/images/eBook_01.png"
-                                    alt="e-book"
-                                    src="https://appinventiv.com/wp-content/themes/twentynineteen-child/images/eBook_01.png"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="right-detail">
-                                <div class="heading4">
-                                  How to be a successful app entrepreneur in
-                                  2020?
-                                </div>
-                                <span class="book-detail"
-                                  >Deep dive into our exclusive eBook that
-                                  shares the secret to how to transition from
-                                  full time employee to an app
-                                  entreprenuer</span
-                                >
-                                <div class="read_more_button">
-                                  <a href="">
-                                    Download <i class="fa fa-arrow-right"></i>
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#work"
+                <a class="nav-link" href="#photos"
                   >Photo Galary <span class="sr-only"></span
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about_us"
-                  >About <span class="sr-only"></span
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testmonial"
+                <a class="nav-link" href="#testimonals"
                   >Testmonials <span class="sr-only"></span
-                ></a>                
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#career"
-                  >Careers <span class="sr-only"></span
                 ></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact"
                   >Contact <span class="sr-only"></span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-outline-success" href="{{route('login')}}"
+                  >Signin <span class="sr-only"></span
                 ></a>
               </li>
             </ul>
@@ -267,914 +481,204 @@
       </nav>
     </header>
 
-    <section id="banner">
+    {{-- <section id="banner">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="banner_table">
               <div class="banner_tabel_cell">
                 <div class="banner_text">
-                  <h1>እንኳን ደህና መጡ!</h1>
+                  <h1>Welcome to MyEvents!</h1>
                   <p>
                     
                   </p>
-                  <!-- <button onclick="window.location.href='#about_us'">
-                    about us
-                  </button>
-                  <button
-                    class="btn_sp"
-                    onclick="window.location.href='#contact'"
-                  >
-                    contact us
-                  </button> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <section id="story">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-7 col-xs-12">
-            <div class="about_info">
-              <h1>ስለ ማዕከላችን በጥቂቱ...</h1>
-              <p>
-                የደብረ ማርቆስ እርሻ አገልግሎት ማዕከል በ200_ ዓ.ም ተመሰረተ። የደብረ ማርቆስ እርሻ አገልግሎት ማዕከል በ200_ ዓ.ም ተመሰረተ።
-                የደብረ ማርቆስ እርሻ አገልግሎት ማዕከል በ200_ ዓ.ም ተመሰረተ። የደብረ ማርቆስ እርሻ አገልግሎት ማዕከል በ200_ ዓ.ም ተመሰረተ።
-              </p>
-              <p class="hide_sm">
-                Our passion is delivering high quality and high performance.
-                That means embracing excellent design, appearing highly in
-                Google, and converting visitors into leads and then sales for
-                your business.
-              </p>
-              <button>read more</button>
-            </div>
-          </div>
-          <div class="col-sm-5 col-xs-12">
-            <div class="about_video">
-              <img class="img-fluid" src="../app/img/photo1.jpg" alt="" />
-              <a class="youtubeVideo" data-video-id="bmixiVwtDso"
-                ><i class="fa fa-play-circle" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="service">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="section_title text-center">
-              <h3>ምርትና አገልግሎቶቻችን</h3>
-              <p>
-                ምርትና አገልግሎቶቻችንምርትና አገልግሎቶቻችንምርትና አገልግሎቶቻችንምርትና አገልግሎቶቻችን
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="service_container">
-          <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="icon-park-outline:pesticide" aria-hidden="true"></i>
-                <h2>ኬሚካሎች</h2>
-                <p>
-                  <ul>
-                    <li>Awura 2,4-D</li>
-                    <li>Glycel</li>
-                    <li>Mancozeb  80% (250 gm)</li>
-                    <li>Lettuce 2 gm</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="si-glyph:shovel" aria-hidden="true"></i>
-                <h2>የእርሻ መገልገያ መሳሪያዎች</h2>
-                <p>
-                  <ul>
-                    <li>PICS</li>
-                    <li>Sickles</li>
-                    <li>Sprayers (20Lt)</li>
-                    <li>Wheat & Teff Tresher </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="carbon:wheat" aria-hidden="true"></i>
-                <h2>ምርጥ ዘርና ማዳበሪያ</h2>
-                <p>
-                  <ul>
-                    <li>DK-777 Maize Variety</li>
-                    <li>Limu  Maize Variety </li>
-                    <li>Teff (kuncho)</li>
-                    <li>Faba Bean seed </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="healthicons:spraying-outline" aria-hidden="true"></i>
-                <h2>የኬሚካል መርጫ መለዋወጫ</h2>
-                <p>
-                  <ul>
-                    <li>Hose</li>
-                    <li>Nozzel</li>
-                    <li>Agitater</li>
-                    <li>Lance</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="emojione-monotone:chicken" aria-hidden="true"></i>
-                <h2>Livestock Equipments</h2>
-                <p>
-                  <ul>
-                    <li>Bee Veil</li>
-                    <li>Bee brush</li>
-                    <li>Water container for Chickens (7lt)</li>
-                    <li>Queen Excluder</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="fa-solid:carrot" aria-hidden="true"></i>
-                <h2>የአትክልት ዘሮች</h2>
-                <p>
-                  <ul>
-                    <li>Beet Root (Monarch) 250 gm</li>
-                    <li>Cabbage (Monarch) 250 gm</li>
-                    <li>Carrot (Bakker) 250 gm</li>
-                    <li>Onion (Mother) 250 gm</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="healthicons:forest" aria-hidden="true"></i>
-                <h2>የደን እፅዋት ዘሮች</h2>
-                <p>
-                  <ul>
-                    <li>Woira Zer</li>
-                    <li>Gesho Zer</li>
-                    <li>Bulie Bahirzafe Zer</li>
-                    <li>Key Bahirzafe Zer</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="ic:outline-grass" aria-hidden="true"></i>
-                <h2>የእንስሳት መኖ ዘሮች</h2>
-                <p>
-                  <ul>
-                    <li>Rodes Grass</li>
-                    <li>Lucinea</li>
-                    <li>Trelucern</li>
-                    <li>Vetch</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="service_item">
-                <i class="fa iconify" data-icon="healthicons:medicines-outline" aria-hidden="true"></i>
-                <h2>AVD</h2>
-                <p>
-                  <ul>
-                    <li>Albenda  2500</li>
-                    <li>Alzole 300</li>
-                    <li>Ashalbin 2500</li>
-                    <li>Ashampro 20%</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="work">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="section_title text-center">
-              <h3>ፎቶ ማህደር</h3>
-              <p>dfgdfgdfgdfsg dsfgsdfgh sdfgsdfgh sdfghsdfh sdfgdfg</p>
-            </div>
-          </div>
-        </div>
-        <div class="work_container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="portfolio_btn text-center">
-                <ul class="portfolio-filter">
-                  <!-- <li class="filter active" data-filter="*">All</li> -->
-                  <li class="filter" data-filter=".ill">ዘርና ማዳበሪያ</li>
-                  <li class="filter" data-filter=".brand">የእርሻ መሳሪያዎች</li>
-                  <li class="filter" data-filter=".fs">ጸረ ተባይ</li>
-                    <li class="filter" data-filter=".an">የእንስሳት ህክምና</li>
-                  <li class="filter" data-filter=".an">ስልጠናዎች </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- portfolio single item -->
-          <div class="galary_item_container">
-            <div class="h">
-              <div
-                class="galary_item"
-                style="position: relative; height: 780px"
-              >
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-xs-12 ill singal_item p-0"
-                  style="position: absolute; left: 0px; top: 0px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/777.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/777.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-xs-12 brand singal_item p-0"
-                  style="position: absolute; left: 390px; top: 0px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/222.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/222.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-xs-12 fs singal_item p-0"
-                  style="position: absolute; left: 780px; top: 0px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/333.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/333.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-xs-12 brand singal_item p-0"
-                  style="position: absolute; left: 0px; top: 260px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/444.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/444.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-xs-12 fs singal_item p-0"
-                  style="position: absolute; left: 390px; top: 260px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/555.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/555.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-sm-6 col-xs-12 an singal_item p-0"
-                  style="position: absolute; left: 780px; top: 260px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/666.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/666.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-sm-6 col-xs-12 ill singal_item p-0"
-                  style="position: absolute; left: 0px; top: 520px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/777.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/777.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-sm-6 col-xs-12 an singal_item p-0"
-                  style="position: absolute; left: 390px; top: 520px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/444.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/444.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio single item -->
-                <div
-                  class="col-md-4 col-sm-6 col-lg-4 col-sm-6 col-xs-12 ill singal_item p-0 hide_sm"
-                  style="position: absolute; left: 780px; top: 520px"
-                >
-                  <div class="singal-galary">
-                    <img class="img-fluid" src="../app/img/333.jpg" alt="" />
-                    <div class="work_hover">
-                      <a href="../app/img/333.jpg" data-lightbox="sab"
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about_us">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="section_title text-center">
-              <h3>የማዕከሉ ባለሙያዎችና ሰራተኞች</h3>
-              <p>dfhdfhgf sdfhdfh sdfhdfh sdfhdfh sdfhdfh</p>
-            </div>
-          </div>
-        </div>
-        <div class="team_container text-center">
-          <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team_item">
-                <div class="team_img">
-                  <img class="img-fluid" src="img/businessperson.png" alt="" />
-                </div>
-                <div class="team_info">
-                  <h3>ባለው ወንድም</h3>
-                  <p>ስራ አስኪያጅ</p>
-                </div>
-                <div class="team-social">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team_item">
-                <div class="team_img">
-                  <img class="img-fluid" src="img/businessperson.png" alt="" />
-                </div>
-                <div class="team_info">
-                  <h3>አበበ ከበደ</h3>
-                  <p>የግብይት ባለሙያ</p>
-                </div>
-                <div class="team-social">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team_item">
-                <div class="team_img">
-                  <img class="img-fluid" src="img/businessperson.png" alt="" />
-                </div>
-                <div class="team_info">
-                  <h3>አገሬ መልካሙ</h3>
-                  <p>የሽያጭ ሰራተኛ</p>
-                </div>
-                <div class="team-social">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team_item">
-                <div class="team_img">
-                  <img class="img-fluid" src="img/businessperson.png" alt="" />
-                </div>
-                <div class="team_info">
-                  <h3>አለሙ ጫኔ</h3>
-                  <p>የእንሳት ሃኪም</p>
-                </div>
-                <div class="team-social">
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    </section><br> --}}
     
-
-    <section id="testmonial">
+    <section id="events" style="padding-top: 5%">
+      
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <div class="section_title text-center">
-              <h3>ደንበኞቻችን ምን አሉ?</h3>
-              <p>
-                ደንበኞቻችን በምርትና አገልግሎቶቻችን ላይ ከሰጡን አስተያዬቶች በጥቂቱ
-              </p>
-            </div>
+        <div class="col-sm-12 text-center">
+          <div class="section_title text-center">
+            <h3></h3>
+            <p>
+              
+            </p>
           </div>
         </div>
-        <div class="testmonial_container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="testmonial_active owl-carousel owl-loaded">
-                <div class="owl-stage-outer">
-                  <div
-                    class="owl-stage"
-                    style="
-                      transform: translate3d(-1740px, 0px, 0px);
-                      transition: all 0.25s ease 0s;
-                      width: 6380px;
-                    "
-                  >
-                    <div
-                      class="owl-item cloned"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
+        <div class="row">
+          @foreach ($events as $event)
+          
+            <div class="col-lg-4">
+              <div class="card card-margin">
+                <div class="card-header no-border">
+                  <h5 class="card-title">{{$event->name}}</h5>
+                </div>
+                <div class="card-body pt-0">
+                  <div class="widget-49">
+                    <div class="widget-49-title-wrapper">
+                      <div class="widget-49-date-success">
+                        <span class="widget-49-date-day">19</span>
+                        <span class="widget-49-date-month">apr</span>
+                      </div>
+                      <div class="widget-49-meeting-info">
+                        <span class="widget-49-pro-title">{{$event->location}}</span>
+                        <span class="widget-49-meeting-time">{{$event->time}}</span>
                       </div>
                     </div>
-                    <div
-                      class="owl-item cloned"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="owl-item cloned"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="owl-item active"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="owl-item active"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። "
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="owl-item"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="owl-item"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img
-                                  class="img-fluid"
-                                  src="img/download.png"
-                                  alt=""
-                                />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="owl-item"
-                      style="width: 560px; margin-right: 20px"
-                    >
-                      <div class="testmonial_item">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="testmonial_img">
-                              <span>
-                                <img class="img-fluid" src="img/download.png" alt="" />
-                              </span>
-                              <h2>አበበ ከበደ</h2>
-                            </div>
-                          </div>
-                          <div class="col-sm-8">
-                            <div class="testmonial_info">
-                              <p>
-                                "ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ። ፈጣን አገልግሎት በማግኘቴ ተደስቻለሁ።"
-                              </p>
-                              <span>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <ul class="widget-49-meeting-points">
+                      <li class="widget-49-meeting-item">Price: <span>{{$event->cost}}</span></li>
+                      <li class="widget-49-meeting-item">Organizer: <span>{{$event->organizer}}</span></li>
+                    </ul>
+                    <form action="{{route('book-event')}}" method="post">
+                      @csrf
+                      <input type="text" name="amount" value="{{$event->cost}}" style="display: none">
+                      <button type="submit" class="btn btn-sm btn-outline-success">Book</button>
+                    </form>
+                    <div class="widget-49-meeting-action">
+                      {{-- <a href="{{route('book-event', ['id' => preg_replace('/[^a-zA-Z0-9\s]/', '', $event->id), 'amount' => $event->cost])}}" class="btn btn-sm btn-outline-success">Book</a> --}}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+
+          @endforeach 
         </div>
       </div>
-    </section>
 
-    
+    </section><br>
+
+    <section id="photos">
+      <div class="container">
+        <div class="col-sm-12 text-center">
+          <div class="section_title text-center">
+            <h3></h3>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/jano1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/rophnan1.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/teddyafro1.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section><br>   
+
+    <section id="testimonals">
+      
+    </section><br>
 
     <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="section_title text-center">
-              <h3>አድራሻችን</h3>
-              <p>cbcbh fghfghfg fghfghfgh dfghfghfgh dfghfghfgh fgh</p>
-            </div>
-          </div>
-        </div>
-        <div class="contact_container">
-          <div class="row">
-            <div class="col-sm-6 col-xs-12">
-              <div class="contact_form">
-                <form>
-                  <input type="text" class="name" placeholder="Enter Name" />
-                  <input type="text" class="email" placeholder="Enter Email" />
-                  <input type="text" class="phone" placeholder="Enter Phone" />
-                  <input
-                    type="text"
-                    class="subject"
-                    placeholder="Interest Of Service"
-                  />
-                  <textarea
-                    class="message"
-                    placeholder="leve Your Message"
-                  ></textarea>
-                  <button type="submit">submit</button>
-                </form>
+      
+    </section>
+
+    {{-- login modal --}}
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          
+
+          <section class="ftco-section">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                  <h2 class="heading-section">Signup to MyEvents</h2>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-6 col-xs-12">
-              <div class="contcat_info">
-                <ul>
-                  <li>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> ደብረ ማርቆስ / ኢትዮጵያ
-                  </li>
-                  <li>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    debremarkosfsc@gmail.com
-                  </li>
-                  <li>
-                    <i class="fa fa-phone" aria-hidden="true"></i> +251 581785939 / +251 911586829
-                  </li>
-                  <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> ከሰኞ - ቅዳሜ :
-                    2:00 - 12:00
-                  </li>
-                </ul>
-                <div class="fllow_info">
-                  <h3>follow us on social media</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-facebook" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-twitter" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-linkedin" aria-hidden="true"></i
-                      ></a>
-                    </li>
-                  </ul>
+              <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-5">
+                  <div class="wrap">
+                    <div class="img" style="background-image: url(images/bg-1.jpg);"></div>
+                    <div class="login-wrap p-4 p-md-5">
+                      <div class="d-flex">
+                        <div class="w-100">
+                          <h3 class="mb-4">Sign In</h3>
+                        </div>
+                        <div class="w-100">
+                          <p class="social-media d-flex justify-content-end">
+                            <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+                            <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+                          </p>
+                        </div>
+                      </div>
+                      <form action="#" class="signin-form">
+                        <div class="form-group mt-3">
+                          <input type="text" class="form-control" required>
+                          <label class="form-control-placeholder" for="username">Username</label>
+                        </div>
+                        <div class="form-group">
+                          <input id="password-field" type="password" class="form-control" required>
+                          <label class="form-control-placeholder" for="password">Password</label>
+                          <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                          <button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+                        </div>
+                        <div class="form-group d-md-flex">
+                          <div class="w-50 text-left">
+                            <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="w-50 text-md-right">
+                            <a href="#">Forgot Password</a>
+                          </div>
+                        </div>
+                      </form>
+                      <p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
+
+
         </div>
       </div>
-    </section>
+    </div>
 
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-xs-12">
             <div class="footer_logo">
-              <h1><span>DM</span>farm service</h1>
+              <h1>MyEvents</h1>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="footer_copy text-center">
-              <p>©alrights reserved <span>Behance Computer Engineering</span></p>
+              <p>©alrights reserved <span></span></p>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
@@ -1247,7 +751,8 @@
     ></script>
     <!-- Owl carousel -->
     <script src="./js/owl.carousel.js"></script>
-    <!-- pooper js -->
+    <!-- node background -->
+    <script type="text/javascript" src=".js/nodes.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -1266,5 +771,8 @@
     <!-- main -->
     <script src="./js/main.js"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

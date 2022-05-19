@@ -43,7 +43,7 @@
       integrity="sha256-K4PK62zpbl/XelQ0bLxyUztMw5nLdGyd2qGmPTGM1oY="
       crossorigin="anonymous"
     />
-    <title>DM Farm Service</title>
+    <title>MyEvents</title>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">

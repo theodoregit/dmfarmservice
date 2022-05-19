@@ -13,13 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\EventsController::class, 'index'])->name('welcome');
+
+Route::post('/book', [App\Http\Controllers\EventsController::class, 'book'])->name('book-event');
+
+Route::get('/signin', [App\Http\Controllers\EventsController::class, 'signin_page'])->name('signin');
+
+Route::get('/success', [App\Http\Controllers\EventsController::class, 'success_page'])->name('success');
+
 
 Auth::routes();
 
